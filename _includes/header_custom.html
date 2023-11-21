@@ -1,0 +1,11 @@
+<h1 style="margin-right:10px;margin-top:5px;">
+{% if page.layout == "letter" %}
+	{% if page.description %}
+		{{ page.description }}
+	{% else %}
+		{{ page.title | upper | prepend: "Letter "}}
+	{% endif %}
+{% else %}	
+	{{ page.description }}
+{% endif %}
+</h1>
