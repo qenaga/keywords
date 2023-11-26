@@ -3,7 +3,11 @@
 	{% if page.description %}
 		{{ page.description }}
 	{% else %}
-		{{ page.title | upper | prepend: "Letter "}}
+		{% if page.has_children %}
+			{{ page.letter | upper | prepend: "Letter "}}
+		{% else %}
+			{{ page.title | upper | prepend: "Letter "}}
+		{% endif %}
 	{% endif %}
 {% else %}	
 	{{ page.description }}

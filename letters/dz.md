@@ -5,4 +5,5 @@ note: There is no contrast between the letters <b>dz</b> and <b>j</b> in Upper I
 nav_order: 17
 permalink: dz
 audio: 17dz.mp3
+parent: Consonants
 ---

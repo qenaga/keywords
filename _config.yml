@@ -18,7 +18,7 @@ gh_edit_link: false # show or hide edit this page link
 
 #footer_content: "Copyright &copy; 2003-2023 Irene Solomon Arnold, Gary Holton, and Rick Thoman. <a href='credits.html'>Credits</a>."
 
-number_pages: 31 # total number of categories in lessons.csv
+# number_pages: 31 # total number of categories in lessons.csv
 
 
 color_scheme: color
@@ -35,9 +35,12 @@ defaults:
 
 
 nav_external_links:
-#   - title: qenaga.org
-#     url: https://qenaga.org
-#     hide_icon: true
+   - title: qenaga.org
+     url: https://qenaga.org
+     hide_icon: true 
+#    - title: Tubughna Foundation
+#      url: https://www.tebughnafoundation.com/
+#      hide_icon: false
 
 callouts:
   warning:

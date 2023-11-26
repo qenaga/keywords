@@ -5,4 +5,5 @@ note:
 nav_order: 26
 permalink: q
 audio: 26q.mp3
+parent: Consonants
 ---
