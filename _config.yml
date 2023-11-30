@@ -1,14 +1,14 @@
-title: Upper Inlet Dena'ina Keywords
-description: Dena'ina Language Keywords by Sava Stephan
+title: Dena'ina Keywords
+description: Dena'ina Language Keywords
 theme: just-the-docs
 
-url: https://qenaga.github.io/ui-keywords
+url: https://keywords.qenaga.org
 
 audiopath: "assets/audio"
 
 exclude:
   - scripts/
-  - assets/wav  
+  - stories/
 #aux_links:
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
 

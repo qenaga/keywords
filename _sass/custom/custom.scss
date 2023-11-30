@@ -43,8 +43,27 @@
   border: 0px  ;
 }
 
-// audio side-by-side
+// head
+.header {
+	font-size: xx-large;
+	margin-right:10px;
+	margin-top:5px;
+}
+.header::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.header .left {
+	float: left;
+	content: "test";
+	display: inline-block;
+}
+.header .right {
+	float: right;
+}
 
+// audio side-by-side
 .audiobox {
 	//display: block;
 	text-align: left;

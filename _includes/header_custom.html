@@ -1,4 +1,11 @@
 <h1 style="margin-right:10px;margin-top:5px;">
+{% if page.parent %}
+	{{ page.parent }}
+{% else %}
+	{{ page.title }}
+{% endif %}
+
+{% comment %}
 {% if page.layout == "letter" %}
 	{% if page.description %}
 		{{ page.description }}
@@ -12,4 +19,5 @@
 {% else %}	
 	{{ page.description }}
 {% endif %}
+{% endcomment %}
 </h1>
